@@ -1,0 +1,37 @@
+>> Python is a high-level, general-purpose, interpreted programming language.
+
+Human Written (print....)
+|
+|(Compilation)(in 1 go)
+|
+Byte code (common) 00111
+|
+|(interpretation)(translation)
+|
+Machine Code (computer can understand)
+
+IDE --> Integrated Development Environment (software).vs code, sublime, pycharm...
+
+code ---> execute --> output
+CLI --> terminal (ps, cmd, bash...)
+extension --> .py
+Command --> python filename.py
+
+print 
+---------
+>> it is used to show a data at the output.
+Ex: print(44)
+
+Syntax 
+-------
+>> grammer of python.
+>> It is case sensitive(a is not A)
+>> Indendation matters.(whitespace before lines of code.. to define a block of code)
+
+Comments (it is for coders)
+---------
+>> Comments are ignored by python
+>> readable
+single line comment --> #
+multi line comments --> ''' '''
+
