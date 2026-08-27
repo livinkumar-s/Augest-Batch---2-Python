@@ -22,6 +22,12 @@ print
 >> it is used to show a data at the output.
 Ex: print(44)
 
+input 
+--------
+>> prompt input from user.
+>> it always returns String.
+Ex: input(explStr)
+
 Syntax 
 -------
 >> grammer of python.
@@ -35,3 +41,30 @@ Comments (it is for coders)
 single line comment --> #
 multi line comments --> ''' '''
 
+Variables 
+-------------
+>> It is a named memory that can contain a data.(Dynamically Typed)
+name=data
+
+Naming Rules 
+--------------
+>> can contain letters, numbers, _.
+>> cannot start with numbers.
+>> no reserved keywords.
+
+Datatypes 
+-----------
+to find datatype of an object --> type(obj)
+integer --> whole numbers. 1,2,30,-1,-2.
+float --> decimal numbers. 0.21323,3.14...
+string --> sequence of character. '',"".
+Concatination --> +
+boolean --> True/False
+
+
+Type casting
+-------------
+str(obj) --> 12 --> "12"
+int(obj)
+float(obj)
+bool(obj)
