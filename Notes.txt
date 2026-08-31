@@ -61,10 +61,67 @@ string --> sequence of character. '',"".
 Concatination --> +
 boolean --> True/False
 
-
 Type casting
 -------------
 str(obj) --> 12 --> "12"
 int(obj)
 float(obj)
 bool(obj)
+
+Operator 
+-----------
+>> Symbol or keyword that performs an operation on values.
+2+2=4
+
+Arithmetic 
+------------
++ --> Addition 
+- 
+*
+/
+// --> Floor Division 
+% --> Modulus
+** --> Expo
+
+BODMAS 
+
+Comparison (Boolean)
+--------------
+== equal 
+!=
+<
+>
+<=
+>=
+
+Logical (combine 2 cond(Bool))
+-------------------------
+and --> True --> Both are True. Otherwise --> False
+or --> True --> anyone or both are True. False --> Both are False
+not --> inverts a boolean.
+
+Assignment  
+-------------
+= assign
++= add and assign
+-+ sub and assign
+*= mul and assign
+/= div and assign
+//= floor div and assign
+%= mod and assign
+**= expo and assign
+
+Bitwise 
+------------
+& --> and --> Ex: 4&3
+| --> or
+~ --> not (~n) (~n=-(n+1))
+^ --> x-or Ex: a^b (1 --> not equal, 0 --> equal)
+>> --> right shift  num<<pos 
+<< --> left shift 
+
+Membership 
+--------------
+
+Identity 
+-------------

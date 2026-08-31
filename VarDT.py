@@ -49,5 +49,8 @@
 # print(a)
 # print(a)
 
-inp=int(input("Enter a Number: "))
-print(inp+100)
+# inp=int(input("Enter a Number: "))
+# print(inp+100)
+
+# a_b=10
+# print(a_b)
