@@ -125,3 +125,42 @@ Membership
 
 Identity 
 -------------
+
+Control Flow Statements 
+-------------------------
+Conditional Clause 
+---------------------
+>> making python to take decision.
+if 
+---
+syntax:
+----------
+if condition:
+    block of code
+
+True --> execute the block. False --> skip it.
+
+Elif 
+------
+elif condition:
+    block of code
+
+True --> execute the block. False --> skip it.
+
+Else:
+------
+else:
+    block of code
+
+False -->  execute the block. True --> skip it
+
+Nested If 
+-----------
+if cond1: 
+    if cond2: 
+        block of code
+
+
+Loops 
+
+
