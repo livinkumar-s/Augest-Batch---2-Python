@@ -91,3 +91,5 @@ if bankType=="current" and balance>1000:
     print("Eligible")
 else:
     print("Not Eligible")
+
+

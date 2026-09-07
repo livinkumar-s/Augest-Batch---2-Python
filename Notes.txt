@@ -126,6 +126,26 @@ Membership
 Identity 
 -------------
 
+
+Iterable Objects 
+-----------------
+>> an object that can return its members 1 by 1.
+Ex: String, List, Tuple, Set, Dict, Range...
+
+Sequence 
+-----------
+>> Ordered Collection of data.
+Ex: String, List, Tuple, Range.....
+
+Indexing and Slicing 
+---------------------
+index number starts from --> 0
+negative indexing starts from --> -1
+obj[ind]
+
+Slicing 
+--------
+
 Control Flow Statements 
 -------------------------
 Conditional Clause 
@@ -160,7 +180,35 @@ if cond1:
     if cond2: 
         block of code
 
-
 Loops 
+--------
+>> it executes a block of code for multiple times.
 
+while (when no of iteration is not known)
+---------
+>> Condition based loop 
+syntax
+--------
+while condition:
+    block of code
 
+>> as long as the condition is True it is going to execute the block of code over and over again.
+
+for (no of iteration is known, iterate over a iterObj(preference))
+----
+>> Sequence based loop. iterate over a sequence
+syntax 
+---------
+for varName in IterObj:
+    block of code
+
+Range 
+---------
+range(len) --> range(15) --> [0,1,2,3,4]
+range(start, end) --> range(3,15) --> [3,4,5,...14]
+range(start, end, step(1))
+
+control statements of loops 
+------------------------------
+break --> stops the loop 
+continue --> skip the current iteration
