@@ -134,6 +134,7 @@ Ex: String, List, Tuple, Set, Dict, Range...
 
 Sequence 
 -----------
+len(obj)---> length of sequence.
 >> Ordered Collection of data.
 Ex: String, List, Tuple, Range.....
 
@@ -145,6 +146,12 @@ obj[ind]
 
 Slicing 
 --------
+>> Extracting part of an element.
+seq[start:]
+seq[:end]
+seq[start:end]
+seq[start:end:step]
+seq[::-1] (reversing)
 
 Control Flow Statements 
 -------------------------
@@ -212,3 +219,51 @@ control statements of loops
 ------------------------------
 break --> stops the loop 
 continue --> skip the current iteration
+
+Data Structures 
+------------------
+>> Ordered Collection of data.
+
+List 
+-----
+>> [v1,v2.....]
+>> It allows duplicates
+>> Indexed, Ordered
+>> Mutable (Updatable)
+
+In built methods 
+-----------------
+.append(ele)
+.insert(pos,ele)
+.extent(iterObj)
+
+.remove(ele)
+.pop(ind)
+
+.count(ele)
+.index(ele)
+
+.reverse()
+.sort()
+
+Tuple 
+---------
+>> (v1,v2.....)
+>> Ordered, Indexed,
+>> It allows duplicate 
+>> Immutable
+
+In built methods 
+---------------------
+.count(ele)
+.index(ele)
+
+Unpacking 
+-------------
+v1,v2,v3=tuple
+
+Set 
+------
+
+Dict 
+------

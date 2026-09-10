@@ -71,10 +71,7 @@
 # i=0
 
 # while i<=100:
-#     if i==50:
-#         continue
-#     print(i)
-#     i+=1
+#     pass
 
 #iteration: inf
 #numbers: 0-49
@@ -87,3 +84,12 @@
 
 # # No of iterations: 100
 # # Numbers: 1-50
+
+# i=10 
+
+# if i<=10:
+#     print("Small")
+# elif i<=20:
+#     pass
+# else:
+#     print("Large")
