@@ -1,4 +1,4 @@
-a=[1,2,3,4,3,2,1,3,4,243,234]
+# a=[1,2,3,4,3,2,1,3,4,243,234]
 # a[2]=33
 # a.append(66)
 # a.append(660)
@@ -43,3 +43,50 @@ a=[1,2,3,4,3,2,1,3,4,243,234]
 # print(a[2:3]) #4
 
 # print(len("321"))
+
+
+# Set 
+
+# s1={233,32,45,67,45,"Hello"}
+
+# s1.add(23)
+# s1.remove(233)
+
+# print(s1)
+
+# s1={2,3,4,5,6,7}
+# s2={4,5,6,7,8,9,0}
+
+# fs1=frozenset({1,2,3})
+
+# fs1[2]
+
+# print(s1.union(s2))
+# print(s1.intersection(s2))
+# print(s1.difference(s2))
+# print(s2.difference(s1))
+
+# Dict 
+
+person={
+    "name":"Leo",
+    "age":23,
+    "role":"SASE",
+    "isMarried":False,
+    "surName":"Leo"
+}
+
+# person["favMovies"]=[24,96,3]
+# person.pop("role")
+# person.clear()
+# print(person)
+# person["role"]="FED"
+
+# print(person.keys()) #dict_keys
+# print(person.values()) #dict_values
+# print(person.items())
+
+# l1=[1,2,3,["four","five",["six","seven","eight"]]]
+
+# print(len(l1))
+# print(l1[-1][-1][-1][-1])

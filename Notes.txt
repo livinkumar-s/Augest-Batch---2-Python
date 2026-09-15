@@ -239,6 +239,7 @@ In built methods
 
 .remove(ele)
 .pop(ind)
+.clear()
 
 .count(ele)
 .index(ele)
@@ -264,6 +265,38 @@ v1,v2,v3=tuple
 
 Set 
 ------
+>> {v1,v2...}
+>> Mutable 
+>> Unordered, Not indexed 
+>> Does not allow duplicates.
+
+In built methods 
+------------------
+.add(ele)
+.remove(ele)
+
+.union(s1)
+.intersection(s1)
+.difference(s1)
+
+frozenset(set) (immutable)
+.clear()
 
 Dict 
 ------
+>> {key:val,key:val.....}
+>> Mutable 
+>> Ordered, Not Indexed 
+>> Allows Duplicate values. No Duplicate Keys
+
+Inbuilt Methods 
+------------------
+.keys()
+.values()
+.items()
+
+.pop(key)
+.clear()
+
+Functions 
+--------------
