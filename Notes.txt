@@ -300,3 +300,44 @@ Inbuilt Methods
 
 Functions 
 --------------
+>> Reusable block of code that performs a specific task.
+
+In built Functions --> print, input......
+User Defined Functions
+
+Syntax:
+-------
+def fnName():
+    block of code
+
+Calling or Invoking --> fnName()
+
+Parameters and Arguments 
+-------------------------
+p --> the variables you create in function defenition without value
+a --> the values passes to the parameters.
+
+Positional Arguments 
+-----------------------
+>> order matters.
+
+Keyword Arguments
+--------------------
+>> pass arguments along with keywords.
+
+Defualt Parameters
+---------------------
+>> Parameter with default value
+
+Variable Length Arguments 
+----------------------------
+*arg --> Tuple
+**karg --> Dict
+
+return Keyword
+------------------
+>> it stops the function.
+>> return a value to the caller.
+
+Scopes 
+---------
