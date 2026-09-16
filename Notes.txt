@@ -341,3 +341,15 @@ return Keyword
 
 Scopes 
 ---------
+>> The region where a variable or name can be accessed.
+
+Local Scope --> Variable created in a function. Accessible only within that func.
+
+Global Scope --> Variable created outside of any function. Accessible anywhere.
+
+Enclosing Scope --> variables of outer func are accessible in inner function.
+
+Built In Scope --> for built in names. Ex: print, input, type..
+
+parent(a)  --> child --> grandchild
+

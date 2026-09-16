@@ -73,3 +73,41 @@
 # print(1,2,3,4,5,6,7,8)
 # a=input("Enter name: ")
 # print(a)
+
+# Scopes
+
+# a=10 
+
+# def dummy1():
+#     a=10
+#     print(a)
+
+# def dummy2():
+#     print(a)
+
+# dummy1()
+# dummy2()
+# print(a)
+
+# age=10
+
+# def incAge():
+#     global age
+#     age+=1
+
+# incAge()
+# incAge()
+# incAge()
+
+# print(age)
+
+# def parent():
+#     a=1
+#     def child():
+#         print(a)
+#         def grandchild():
+#             print(a)
+#         grandchild()
+#     child()
+
+# parent()
