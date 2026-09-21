@@ -57,9 +57,49 @@ Datatypes
 to find datatype of an object --> type(obj)
 integer --> whole numbers. 1,2,30,-1,-2.
 float --> decimal numbers. 0.21323,3.14...
+
+
 string --> sequence of character. '',"".
+Operations:
 Concatination --> +
+repetition --> *
+
+>> Immutable 
+>> Indexed/Ordered
+
+Inbuilt Methods 
+----------------
+.upper()
+.lower()
+.title()
+.capitalize()
+
+.find(subStr) -1 --> not found
+.count(subStr) 
+
+.split(sepChar) --> Str --> List
+.join(seq) --> seq --> str
+
+
+.startswith("subStr")
+.endswith(subStr)
+.isalpha()
+.isdigit()
+.isalnum()
+
+Formatted Strings --> f" {var} "
+
+Escape Characters
+-------------------
+\n --> new line
+\t --> tab
+
 boolean --> True/False
+
+Mutable(no reuse) --> List, Dict, Set.
+Immutable --> Int, Float, Boolean, Str,Tuple, FrozenSet. (reuse)
+
+
 
 Type casting
 -------------
@@ -67,6 +107,10 @@ str(obj) --> 12 --> "12"
 int(obj)
 float(obj)
 bool(obj)
+list()
+tuple()
+set()
+dict()
 
 Operator 
 -----------
@@ -122,9 +166,11 @@ Bitwise
 
 Membership 
 --------------
+in, not in
 
 Identity 
 -------------
+is, is not
 
 
 Iterable Objects 

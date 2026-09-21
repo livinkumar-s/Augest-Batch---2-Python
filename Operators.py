@@ -44,15 +44,15 @@
 
 # print("You cannot vote")
 
-a=10
-a=15
-a+=5 #20
-a-=10 #10
-a*=10 #100
-a/=25 #4
-a//=2 #2
-a%=10 #2
-a**=4 #16
+# a=10
+# a=15
+# a+=5 #20
+# a-=10 #10
+# a*=10 #100
+# a/=25 #4
+# a//=2 #2
+# a%=10 #2
+# a**=4 #16
 
 # print(a)
 
@@ -64,4 +64,23 @@ a**=4 #16
 # print(39>>2)
 # print(39<<2)
 
-print(~29)
+# print(~29)
+
+# Identity 
+
+# print(0 is 1)
+# print(0==1)
+
+# a=[1,2,3]
+# b=a
+
+# print(a is b)
+# print(a == b)
+
+# print("He" in "hello")
+# print(10 in [1,2,3])
+
+
+# a=[1,2,2,3,4,2,1,3,5,6,54,43]
+# b=list(set(a))
+# print(b)

@@ -111,3 +111,12 @@
 #     child()
 
 # parent()
+
+# print(1,2,3,4)
+
+# print("Hello\nHi")
+
+# print(123,end="")
+# print(12,end="\n")
+# print(1,end="\n")
+
