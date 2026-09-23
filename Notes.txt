@@ -399,3 +399,33 @@ Built In Scope --> for built in names. Ex: print, input, type..
 
 parent(a)  --> child --> grandchild
 
+File Handling 
+----------------
+>> It is the process of creating, reading, writing, deleting files using python.
+Ex: txt, html, xml, xl, json, binary..
+
+To open a file --> open(path, mode)
+To read content --> .read()
+To read content line by line --> .readline() .readlines()
+To know the cursor pos --> .tell()
+To change cursor pos --> .seek(pos)
+To check readability --> .readable()
+To check writability --> .writable()
+
+To write content --> .write(content)
+
+To close a file --> .close()
+Modes 
+-------
+"r" --> Read
+"w" --> Write
+"a" --> append
+"x" --> create
+"r+" --> read and write (no truncation)
+"w+" --> read and write 
+"a+" --> read and append
+
+with statement 
+----------------
+with open(path,mode) as varName:
+    block of code 
