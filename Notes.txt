@@ -429,3 +429,30 @@ with statement
 ----------------
 with open(path,mode) as varName:
     block of code 
+
+Error Handling 
+-----------------
+>> Errors are the problems that stop the code from running correctly.
+
+Syntax Errors 
+----------------
+>> when you make mistake in grammer of python.
+Ex: SyntaxError, IndentationError
+
+Runtime Errors (Exceptions)
+--------------
+>> these are caught during interpretation.
+Ex: TypeError, ValueError, ZeroDivisionError....
+
+Exception Handling
+-------------------
+try:
+    block of code
+except ErrName:
+    handling block
+.
+.
+finally:
+    block of code
+
+Logical Error
