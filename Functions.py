@@ -1,10 +1,10 @@
-# def printSteps():
-#     print("Step1")
-#     print("Step2")
-#     print("Step3")
-#     print("Step4")
-#     print("Step5")
-#     print("----------------")
+def printSteps():
+    print("Step1")
+    print("Step2")
+    print("Step3")
+    print("Step4")
+    print("Step5")
+    print("----------------")
 
 # a=printSteps() #caller
 # print(a)

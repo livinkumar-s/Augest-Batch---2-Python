@@ -456,3 +456,50 @@ finally:
     block of code
 
 Logical Error
+
+OOP 
+----
+Object Oriented Programming.
+>> It is a programming pattern that organizes the code using class and object.
+
+Object --> realtime entity.(information, funtionalities)
+       --> (Attributes, Methods)
+
+Blueprint --> Bottle,Bottle....
+class(blueprint) --> obj1,obj2....(instances)
+
+class 
+------
+>> It is a blueprint fpr the objects.
+Syntax:
+---------
+class Clsname:
+    define attr, method
+    def __init__(self): #constructor
+        attributes
+
+Objects 
+----------
+>> Instances of a class.
+
+Attrubutes 
+-------------
+Class Attribute --> accessed from both class and objects
+InStance Attribute --> accessed only from the objects
+
+Methods 
+---------
+Class Method --> when you want to use class attributes
+Instance Method --> when you want to use instance attributes
+Static Method
+
+Self 
+------
+>> it is the current object we are working with.
+
+Concepts of OOP 
+------------------
+Inheritance 
+Poly 
+Abstraction 
+Encap.
